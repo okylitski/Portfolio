@@ -1,0 +1,666 @@
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway/raleway-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway/raleway-light-webfont.eot');
+    src: url('../fonts/raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway/raleway-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway/raleway-light-webfont.eot');
+    src: url('../fonts/raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway/raleway-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway/raleway-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('../fonts/opensans/opensans-bolditalic-webfont.eot');
+    src: url('../fonts/opensans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans/opensans-light-webfont.eot');
+    src: url('../fonts/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/opensans/opensans-lightitalic-webfont.eot');
+    src: url('../fonts/opensans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-lightitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SemiboldItalic';
+    src: url('../fonts/opensans/OpenSans-SemiboldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Semibold';
+    src: url('../fonts/opensans/OpenSans-Semibold.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.section{
+    font-size: 0;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+.background_nav{
+    background: black;
+    width: 100%;
+    }
+.navbar{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px ;
+    margin: 0 auto;
+}
+.navigation {
+    padding: 0 0 23px 0;
+}
+.logotype_navigation{
+    font-family: 'ralewayregular';
+    font-size: 36px;
+    color: #ff8b38;
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+.logotype_navigation:before {
+   font-family: 'open_sansbold';
+   font-size: 35px;
+   color: white;
+   content: "AX"
+ }
+ul.nav {
+    list-style-type: none;
+    text-align: right;
+     margin: -35px 17px 0 0;
+     }
+.nav_0{
+    display: inline;
+    font-family: 'Semibold';
+    font-size: 15px;
+    color: #c9c9c9;
+    text-align: right;
+    margin: 0 0 0 47px ;
+}
+.nav_0 a {
+	text-decoration: none;
+	color:white;
+}
+.background_main {
+    background-image: url(../images/main.png);
+    height: 643px;
+}
+.main_first_part  .logotype_main_page {
+    font-family: 'ralewayregular';
+    font-size: 70px;
+    color: #ff8b38;
+    text-align: left;
+    padding: 10px 0 0 0;
+}
+.main_first_part .logotype_main_page:before {
+   font-family: 'open_sansbold';
+   font-size: 69px;
+   color: white;
+   content: "AX"
+ }
+.header .main_page .main_first_part h1 {
+    font: 36px 'ralewayregular';
+    color: white;
+    text-align: left;
+    
+}
+.header .main_page .main_first_part .line {
+    width: 64px;
+    height: 2px;
+    background: white;
+    display: block;
+    margin:35px 0 35px 0;
+}
+.header .main_page .main_first_part p {
+    font: 15px/1.5 'open_sansregular'; 
+    color: #bab9ba;
+    margin: 23px auto 26px;
+    text-align: left;
+}
+.header .main_page .main_first_part button {
+    text-align: left;
+    font:14px/1.5 'open_sansregular'; 
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    margin: 20px 0 40px;
+    background: none;
+    text-align: left;
+    outline: none;
+}
+.header .main_page .main_first_part form {
+    background-color: white;
+    width: 70%;
+    margin: 70px 0 0 27%;
+    border-radius: 5px;
+    
+}
+.header .main_page .main_first_part form label{
+    display: block;
+    text-align: center;
+
+}
+.header .main_page .main_first_part form label tab-1:active {
+    background-color: #ff8b38;
+}
+.header .main_page .main_first_part form label input{
+    border:none;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0 0 7px 0;
+    margin: 50px 0 0 0;
+    width: 70%;
+    outline: none;
+}
+.header .main_page .main_first_part form .started input{
+        font-family: 'Semibold';
+    font-size: 14px;
+    border: none;
+    color:white;
+    background-color: #ff8b38;
+    width: 100%;
+    margin: 70px 0 0 0;
+    padding: 20px  0;
+    border-radius: 0 0 5px 5px;
+}
+.header .main_page .main_first_part form legend{
+    font: 22px "open_sansbold";
+    color: #333333;
+    background-color: #f5f5f5;
+    padding: 20px  0;
+    border-radius: 5px 5px 0 0 ;
+}
+.header .main_page .main_first_part form legend span{
+    color: #ff8b38; 
+}
+.header .main_page {
+    width: 100%;   
+}
+.header .main_page .main_first_part {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.header .main_page .main_second_part{
+    width: 80%;
+    margin: 10px 0 0 0;
+    text-align: left;
+    }
+.background_brand_bar {
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px 0;
+    margin-top: 1px 0;
+  }
+.brand {
+    margin: -73px auto 0;
+}
+.social_media {
+    display: inline-block;
+    vertical-align: top;
+    }
+.icon_1 i{
+    text-align: right; 
+    font-size: 45px;
+    color:#cccccc;
+    padding: 15px 0 0 64px;
+}
+.icon_1{
+    margin: auto 0;
+       
+}
+.social_media_describe {
+    font: 14px/1.4 'open_sansregular'; 
+    text-align: left;
+    margin: auto 0;
+    
+   }
+.social_media_describe h3{
+   font: 20px'open_sansbold'; 
+    color: #333333;
+}
+.social_media_describe p{
+    color: #86878b;
+    }
+.section h1{
+    font: 36px 'ralewayregular';
+    color: #212121;
+    margin-bottom: 30px;
+}
+.section .line {
+    width: 64px;
+    height: 2px;
+    background: #ff8b38;
+    display: block;
+    margin: 23px auto 26px;
+}
+.section .sub-title {
+    font: 14px/1.4 'open_sansregular'; 
+    color: #86878b;
+    margin: 23px auto 26px;
+}  
+
+.our-process-main{
+    padding: 79px 0 2px;
+    margin: 0 -15px;
+}
+.background_grey_0{
+   margin: 0 0 0 0;
+    padding: 0 0;
+    background: #f5f5f5;  
+  }
+.features {
+max-width: 1140px;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto 0;
+    padding:  80px 0;
+    
+}
+.features .tabs_effects{
+    display: inline-block;
+   vertical-align: top;
+        width: 100%;
+}
+.features .tabs_effects .tabs_effects_tabs label {
+   font:20px 'open_sansbold';
+   color: white;
+   display: block;
+   font-size: 15px;
+   background-color: #2f2f2f;
+    border: none;
+   margin: 1px;
+   padding: 46px 0;
+   width: 85%;
+}
+
+.features .tabs_effects .tabs_effects_tabs label.active{
+   background-color: #ff8c2d; 
+  cursor: default;
+}
+.features .tabs_effects .tabs_effects_tabs label:hover{
+   background-color: #ff8c2d; 
+}
+.features .tabs_effects .box{
+   display: block;
+   font:15px/1.5 'open_sansregular'; 
+   text-align: justify;
+   color: #c3c3c5;
+   padding: 0 40px 0 60px;; 
+}
+.features .tabs_effects .box p{
+   padding: 20px 0 0 0;
+}
+.features .tabs_effects .box h3{
+  font-family: 'open_sansbold';
+  color: black;
+  margin:5px 0 25px 0;
+}
+.features .tabs_effects .effect_button .config_1{
+   font:15px/1.5 'open_sansregular'; 
+   color: white;
+   background-color: #ff8c2d;
+   border: none;
+   padding: 13px 28px;
+   border-radius: 3px;
+   margin: 37px 0 0 0;
+   outline: none;
+}
+.features .tabs_effects .effect_button  .config_2{
+    font:15px/1.5 'open_sansregular'; 
+    color: white;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 3px;
+    margin: 37px 0 0 0;
+    background-color: aqua;
+    outline: none;
+}
+.features .tabs_effects .effect_button  .config_3{
+   font:15px/1.5 'open_sansregular'; 
+    color: white;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 3px;
+    margin: 37px 0 0 0;
+    background-color: palevioletred; 
+    outline: none;
+}
+.features .tabs_effects .tabs_effects_image{
+    padding: 40px 0 0 0 ;
+   
+}
+.box input:checked + .effect_button{
+   display: block;
+}
+.effect_button{
+  display: none;
+}
+.box input{
+  display: none;
+}
+.our-process-item{
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+    font: 13px/1.3 'open_sansregular';
+    color: #86878b;
+    padding: 0 15px;
+}
+.our-process-item .round .icon{
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 24px;
+}
+.our-process-item .icon{
+   padding-top: 10px;
+    }
+.our-process-item .title{
+    color: #333;
+    font: bold 20px 'open_sansregular';
+    margin-bottom: 21px;
+}
+.background_grey {
+    margin: 80px 0 0 0;
+    padding: 80px 0 80px 0;
+    background: #f5f5f5;
+}
+.pricing {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.pricing_slot{
+  margin: 0 -20px;
+}
+.pricing_slot ul {
+    display: inline-block;
+    font: 12px 'open_sansregular';
+    width: 33.3%;
+    margin: 80px 0 0 0;
+    padding: 20px ;
+
+}
+.pricing_slot li {
+    background: white;
+    padding: 15px 0 15px;
+    margin: 1px;
+}
+.pricing .pricing_slot_1{
+    font-family: 'open_sansbold';
+    font-size: 16px;
+    color: white;
+    background:#303030;
+}
+.pricing .pricing_slot_2{
+    font-family: 'ralewaybold';
+    font-size: 69px;
+    padding: 0 0;
+    color: white;
+    background:#303030;
+    }
+.pricing .dollar{
+    font-size: 35px; 
+}
+.pricing .pricing_slot_3{
+    font-family: 'SemiboldItalic';
+    font-size: 12px;
+    color: #9a9a9a;
+    background:#303030;
+    }
+.pricing .pricing_slot_orange {
+    font-family: 'open_sansbold';
+    color: white; 
+    margin-top:-1px;
+    background:#ff8c2d;
+}
+.pricing .line_block{
+    height: 5px;
+    background: #ff8c2d;
+    padding: 0 0;
+    margin: -1px 1px -1px;
+}
+.testimonials {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+    text-align: center; 
+   }
+.testimonial_panel_0 {
+    font: 14px/1.4 'open_sansitalic';
+    color: #9e9fa2;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+    margin: 0 0 0 0;
+    padding: 80px 60px;
+    text-align: left;
+      }
+.testimonial_panel_1{
+    padding: 20px 10px;
+    margin-bottom: 26px;
+    background: #f5f5f5;
+    position: relative;
+}
+.testimonial_panel_1:before{
+    content: "";
+    position: absolute; 
+    left: 10%; 
+    top: calc(50% - -50%);
+    border-top: 20px solid #f5f5f5;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+.foto h4 {
+    color: black;
+    vertical-align: top;
+
+}
+.foto .describe {
+    font: 14px/1.4 'open_sansregular';
+    text-align: left;
+    display: inline-block;
+    vertical-align: 100%;
+    }
+.foto .imagination {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    }
+.custom_section  {
+    width: 100%;
+    padding: 0 0;
+    margin: 0 auto;
+}
+.custom_section {
+    background-image: url("../images/image_1.png" );
+    
+}
+.custom_section H1 {
+    padding-top: 65px;
+    color: white;
+    margin-bottom: 27px;
+}
+.custom_section .line {
+    background: white;
+    display: block;
+    margin: 23px auto 30px;
+}
+.custom_section .sub-title {
+    font: 16px 'ralewaylight';
+    color: #d5d4d3;
+    margin-bottom: 40px;
+}
+.custom_section .button {
+    font:17px/1.7 'open_sansregular'; 
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 14px 31px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0 40px 0;
+    outline: none;
+} 
+.custom_section .button:hover {
+    background: #585858;
+    opacity: 0.5;
+    outline: none;
+} 
+.contact {
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+.subject input {
+    font:14px/1.4 'open_sansregular'; 
+	display: block;
+    width: 95%;
+    border:none;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0 0 7px 20px;
+    margin: 30px 100px 0 0;
+    outline: none;
+}
+	div.subject{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+   
+.subject textarea {
+    font:14px/1.4 'open_sansregular'; 
+    width: 95%;
+    border:none;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0 0 7px 20px;
+    margin: 30px  0 0 40px;
+    outline: none;
+    resize: none;
+}
+.button_send_messege button{
+    font: 16px 'open_sansregular';
+    color: white;
+    border:none;
+    background: #ff9b51;
+    padding: 15px 20px;
+    border-radius: 5%;
+    margin: 45px 0 0 0;
+    outline: none;
+}
+.footer {
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+.footer {
+    background:black;
+    height: 100px;
+    padding: 0 0;
+}
+.footer .social_0 i {
+    font-size: 25px;
+    color:white;
+    margin:0 15px 15px;
+} 
+.footer .social {
+    padding-top: 30px;
+    text-align: center;
+}
+.footer .end {
+    font:11.5px/1.1 'open_sansregular'; 
+    text-align: center;
+    color: white;
+    padding-top: -13px;
+}
+
