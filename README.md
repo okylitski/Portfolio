@@ -1,4 +1,4 @@
-# ToDo-List
+# Axis site
 A simple site developed in HTML, CSS<br>
 To launch the site, follow the link - https://okylitski.github.io/axis/
 
