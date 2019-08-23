@@ -1,7 +1,7 @@
 # Axis site
 A simple site developed in HTML, CSS<br>
 To launch the site, follow the link - https://okylitski.github.io/axis/
-
+<img src="/assets/images/axit.gif" alt="GIF" style="max-width:100%">
 
 
 # Description
