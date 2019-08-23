@@ -10,5 +10,5 @@ To launch the site, follow the link - https://okylitski.github.io/axis/
 -switch tabs create on radio inputs.<br>
 In order to get the site for review, editing or testing, clone project:
 ```
-https://okylitski.github.io/axis/
+https://github.com/okylitski/axis.git
 ```
